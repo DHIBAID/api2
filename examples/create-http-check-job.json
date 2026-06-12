@@ -1,0 +1,10 @@
+{
+  "name": "check-local-health",
+  "type": "http_check",
+  "payload": {
+    "url": "http://localhost:8080/health",
+    "expected_status": 200
+  },
+  "timeout_seconds": 10,
+  "max_retries": 2
+}

@@ -1,0 +1,9 @@
+{
+  "name": "wait-five-seconds",
+  "type": "wait",
+  "payload": {
+    "duration_seconds": 5
+  },
+  "timeout_seconds": 10,
+  "max_retries": 0
+}

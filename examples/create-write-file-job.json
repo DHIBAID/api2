@@ -1,0 +1,11 @@
+{
+  "name": "write-taskbridge-output",
+  "type": "write_file",
+  "payload": {
+    "path": "/tmp/taskbridge-output.txt",
+    "content": "hello from taskbridge\n",
+    "append": false
+  },
+  "timeout_seconds": 5,
+  "max_retries": 1
+}
